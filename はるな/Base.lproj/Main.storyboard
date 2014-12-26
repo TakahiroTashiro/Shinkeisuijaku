@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="はるな" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vX4-wP-tf9">
+                                <rect key="frame" x="53" y="49" width="200" height="300"/>
+                                <rect key="contentStretch" x="0.49999999999999994" y="0.49999999999999994" width="0.49999999999999961" height="0.49999999999999961"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZOU-OW-8Zd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VjE-Gd-hYo">
+                                <rect key="frame" x="284" y="49" width="200" height="300"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1ku-tC-J9p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwG-Yn-ijw">
+                                <rect key="frame" x="53" y="357" width="200" height="300"/>
+                                <rect key="contentStretch" x="0.49999999999999994" y="0.49999999999999994" width="0.49999999999999961" height="0.49999999999999961"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RX8-3q-Xjp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcM-Mv-8hk">
+                                <rect key="frame" x="515" y="357" width="200" height="300"/>
+                                <rect key="contentStretch" x="0.49999999999999994" y="0.49999999999999994" width="0.49999999999999961" height="0.49999999999999961"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard6:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aEg-oa-I7c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilo-5W-Qta">
+                                <rect key="frame" x="284" y="357" width="200" height="300"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="teM-57-SGh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFg-9j-lwo">
+                                <rect key="frame" x="53" y="665" width="200" height="300"/>
+                                <rect key="contentStretch" x="0.49999999999999994" y="0.49999999999999994" width="0.49999999999999961" height="0.49999999999999961"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard7:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jv3-KT-gGV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2j-zA-Uxi">
+                                <rect key="frame" x="284" y="665" width="200" height="300"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard8:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N5Q-QP-ZbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfn-w2-gkP">
+                                <rect key="frame" x="515" y="49" width="200" height="300"/>
+                                <rect key="contentStretch" x="0.49999999999999994" y="0.49999999999999994" width="0.49999999999999961" height="0.49999999999999961"/>
+                                <state key="normal" image="z01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedcard3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4pH-bx-U13"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxT-GR-1ab">
+                                <rect key="frame" x="515" y="665" width="200" height="300"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushReset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="X5L-d6-gv6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x2j-zA-Uxi" firstAttribute="bottom" secondItem="LxT-GR-1ab" secondAttribute="bottom" id="35T-AJ-yE9"/>
+                            <constraint firstItem="VjE-Gd-hYo" firstAttribute="leading" secondItem="vX4-wP-tf9" secondAttribute="trailing" constant="31" id="57F-wq-27I"/>
+                            <constraint firstItem="VjE-Gd-hYo" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="DBJ-Vx-4RO"/>
+                            <constraint firstItem="VjE-Gd-hYo" firstAttribute="leading" secondItem="ilo-5W-Qta" secondAttribute="leading" id="Eve-Pb-SCr"/>
+                            <constraint firstItem="ilo-5W-Qta" firstAttribute="top" secondItem="mwG-Yn-ijw" secondAttribute="top" id="Gn3-x0-vJe"/>
+                            <constraint firstItem="VjE-Gd-hYo" firstAttribute="top" secondItem="Xfn-w2-gkP" secondAttribute="top" id="HdS-Ik-AxQ"/>
+                            <constraint firstItem="mwG-Yn-ijw" firstAttribute="top" secondItem="vX4-wP-tf9" secondAttribute="bottom" constant="8" symbolic="YES" id="Lah-zq-cAf"/>
+                            <constraint firstItem="WFg-9j-lwo" firstAttribute="leading" secondItem="mwG-Yn-ijw" secondAttribute="leading" id="TQi-dB-vjm"/>
+                            <constraint firstItem="ilo-5W-Qta" firstAttribute="leading" secondItem="x2j-zA-Uxi" secondAttribute="leading" id="UiU-Ld-HQd"/>
+                            <constraint firstItem="WFg-9j-lwo" firstAttribute="top" secondItem="x2j-zA-Uxi" secondAttribute="top" id="WQq-0L-7tJ"/>
+                            <constraint firstItem="vX4-wP-tf9" firstAttribute="top" secondItem="VjE-Gd-hYo" secondAttribute="top" id="WcF-uy-CV4"/>
+                            <constraint firstItem="mwG-Yn-ijw" firstAttribute="leading" secondItem="vX4-wP-tf9" secondAttribute="leading" id="Wo9-xC-gVH"/>
+                            <constraint firstItem="Xfn-w2-gkP" firstAttribute="leading" secondItem="VjE-Gd-hYo" secondAttribute="trailing" constant="31" id="XzJ-6c-keG"/>
+                            <constraint firstItem="WFg-9j-lwo" firstAttribute="top" secondItem="mwG-Yn-ijw" secondAttribute="bottom" constant="8" symbolic="YES" id="Z7r-Fn-Dth"/>
+                            <constraint firstItem="LxT-GR-1ab" firstAttribute="trailing" secondItem="qcM-Mv-8hk" secondAttribute="trailing" id="cCa-3u-eC0"/>
+                            <constraint firstItem="qcM-Mv-8hk" firstAttribute="leading" secondItem="Xfn-w2-gkP" secondAttribute="leading" id="edj-WZ-XAD"/>
+                            <constraint firstItem="LxT-GR-1ab" firstAttribute="top" secondItem="x2j-zA-Uxi" secondAttribute="top" id="fuf-td-qPR"/>
+                            <constraint firstItem="qcM-Mv-8hk" firstAttribute="leading" secondItem="LxT-GR-1ab" secondAttribute="leading" id="mvB-aC-SCu"/>
+                            <constraint firstItem="qcM-Mv-8hk" firstAttribute="top" secondItem="ilo-5W-Qta" secondAttribute="top" id="rR0-P7-Yzc"/>
+                            <constraint firstItem="vX4-wP-tf9" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="29" id="swm-Pa-GRg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="card1" destination="vX4-wP-tf9" id="4Sy-GD-E47"/>
+                        <outlet property="card2" destination="VjE-Gd-hYo" id="BNM-Pr-6pu"/>
+                        <outlet property="card3" destination="Xfn-w2-gkP" id="dhk-WM-2X5"/>
+                        <outlet property="card4" destination="mwG-Yn-ijw" id="dbg-N9-vQ0"/>
+                        <outlet property="card5" destination="ilo-5W-Qta" id="oCn-FN-CSB"/>
+                        <outlet property="card6" destination="qcM-Mv-8hk" id="1Vy-dR-2dS"/>
+                        <outlet property="card7" destination="WFg-9j-lwo" id="JqI-aH-gkg"/>
+                        <outlet property="card8" destination="x2j-zA-Uxi" id="Zek-fJ-7ZQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="241"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="z01.png" width="200" height="300"/>
+    </resources>
+</document>

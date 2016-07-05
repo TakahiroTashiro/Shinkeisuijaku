@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             cards[0] = temp
         }
         
-        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "onUpdate:", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.onUpdate(_:)), userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {

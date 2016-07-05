@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         var temp = ""
         for _ in 0.stride(to: 100, by: 1) {
-            var n = arc4random() % 8
+            let n = arc4random() % 8
             temp = cards[Int(n)]
             cards[Int(n)] = cards[0]
             cards[0] = temp
@@ -302,7 +302,7 @@ class ViewController: UIViewController {
         
         for _ in 0.stride(to: 100, by: 1)
         {
-            var n = arc4random() % 8
+            let n = arc4random() % 8
             temp = cards[Int(n)]
             cards[Int(n)] = cards[0]
             cards[0] = temp

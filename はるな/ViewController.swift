@@ -29,9 +29,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var i = 0
         var temp = ""
-        for(i=0; i<100; i++){
+        for _ in 0.stride(to: 100, by: 1) {
             var n = arc4random() % 8
             temp = cards[Int(n)]
             cards[Int(n)] = cards[0]
@@ -299,10 +298,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pushReset(sender: AnyObject) {
-        var i = 0
         var temp = ""
         
-        for(i=0; i<100; i++)
+        for _ in 0.stride(to: 100, by: 1)
         {
             var n = arc4random() % 8
             temp = cards[Int(n)]

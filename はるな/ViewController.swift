@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     
     func onUpdate(timer : NSTimer){
         cnt += 0.2
-        println("\(cnt)")
+        print("\(cnt)")
         
         if(Int(cnt) % 3 == 0 && reverse)
         {
@@ -198,7 +198,7 @@ class ViewController: UIViewController {
         {
             let myAlert = UIAlertController(title: "Congratulation", message: "You cleared", preferredStyle: .Alert)
             let myOkAction = UIAlertAction(title: "OK", style: .Default) { action in
-                println("Action OK!!")
+                print("Action OK!!")
         }
             
             // OKのActionを追加する.
@@ -213,7 +213,7 @@ class ViewController: UIViewController {
         
         if(opencard1 == card)
         {
-            println("same card")
+            print("same card")
             //opencard1 = -1
             //opencard2 = -1
             openkind = ""
@@ -221,7 +221,7 @@ class ViewController: UIViewController {
         }
         else if(opencard1 == -1)
         {
-            println("first")
+            print("first")
             opencard1 = card
             openkind = kindcard
             res = 1
@@ -231,7 +231,7 @@ class ViewController: UIViewController {
             opencard2 = card
             if(kindcard == openkind)
             {
-                println("OK")
+                print("OK")
                 carddisable()
                 opencard1 = -1
                 opencard2 = -1
@@ -241,7 +241,7 @@ class ViewController: UIViewController {
             else
             {
                 reverse = true;
-                println("BAD")
+                print("BAD")
             }
             
             res = 0
